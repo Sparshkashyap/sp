@@ -1,0 +1,51 @@
+.table{
+    border:3px solid black;
+}
+
+.form{
+    margin-top:2rem;
+}
+
+img{
+    height:35rem;
+    width:21rem;
+    border-radius: 20px;
+    
+  
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.inp{
+    height:15rem;
+    width:10rem;
+    
+
+}
+
+.video{
+    height:25rem;
+    width:15rem;
+
+}
+
+.if{
+    height:19vh;
+    width:90vw;
+}
+.text{
+    height:19vh;
+    width:90vw;   
+}
+
+
+
+@media print,(max-width:400px) and (min-height:728px){
+    .inp{
+        
+        border-radius: 20px;
+    }
+}
